@@ -1,0 +1,42 @@
+{
+  "name": "fenearplayer",
+  "version": "0.0.0",
+  "description": "Dragons, dragons everywhere.",
+  "private": true,
+  "keywords": [
+    "dragons"
+  ],
+  "author": "leeolayvar <leeolayvar@gmail.com> (http://leeolayvar.com)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leeolayvar/fenearplayer.git"
+  },
+  "bugs": {
+    "url": "http://github.com/leeolayvar/fenearplayer/issues"
+  },
+  "scripts": {
+    "prepublish": "cake prepublish",
+    "test": "cake test"
+  },
+  "bin": {
+    "fenearstreamer": "./build/bin/fenearplayer.js"
+  },
+  "devDependencies": {
+    "should": "0.5.x",
+    "coffee-script": "1.3.x",
+    "bork": "0.0.x",
+    "walker": "1.0.x"
+  },
+  "dependencies": {
+    "nomnom": "1.5.x",
+    "bork": "0.0.x"
+  },
+  "engine": "node",
+  "main": "./build/lib/index.js",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/leeolayvar/fenearstreamer/master/LICENSE"
+    }
+  ]
+}
