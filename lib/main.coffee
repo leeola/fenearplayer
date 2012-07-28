@@ -5,7 +5,7 @@
 # MIT Licensed
 #
 winston = require 'winston'
-web = require './web'
+server = require './server'
 
 
 
@@ -18,7 +18,8 @@ start = (options) ->
   winston.log 'warning', 'main options are ignored.'
   
   # Start our processes.
-  web.main.start()
+  server.main.start()
+
 
 
 

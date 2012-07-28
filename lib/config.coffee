@@ -14,11 +14,11 @@ cli =
   daemon: false
 
 # Default web config
-web =
+server =
   port: 50080
   local_only: true
 
 
 
 exports.cli = cli
-exports.web = web
+exports.server = server

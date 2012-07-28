@@ -1,10 +1,10 @@
 #
-# lib/web/main.coffee
+# lib/server/main.coffee
 #
 # Copyright (c) 2012 Lee Olayvar <leeolayvar@gmail.com>
 # MIT Licensed
 #
-config = (require '../config').web
+config = (require '../config').server
 app = require './app'
 
 
@@ -20,10 +20,6 @@ app = require './app'
 start = (port=config.port) ->
   app.start port
 
-
-
-if require.module is module
-  start()
 
 
 
