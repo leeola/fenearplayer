@@ -19,7 +19,7 @@
     "test": "cake test"
   },
   "bin": {
-    "fenearstreamer": "./build/bin/fenearplayer.js"
+    "fenearplayer": "./build/bin/fenearplayer.js"
   },
   "devDependencies": {
     "should": "0.5.x",
@@ -29,7 +29,11 @@
   },
   "dependencies": {
     "nomnom": "1.5.x",
-    "bork": "0.0.x"
+    "bork": "0.0.x",
+    
+    "flatiron": "",
+    "union": "",
+    "winston": ""
   },
   "engine": "node",
   "main": "./build/lib/index.js",
