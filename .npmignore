@@ -2,4 +2,5 @@ node_modules
 npm-debug.log
 .c9revisions
 examples
+.browserify_cache.json
 r.coffee

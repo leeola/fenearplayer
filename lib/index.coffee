@@ -8,8 +8,8 @@ main = require './main'
 
 
 
-exports.app = require './app'
-exports.client = require './client'
+
+exports.bin = require './bin'
+exports.config = require './config'
 exports.main = main
 exports.start = main.start
-exports.server = require './server'
